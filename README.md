@@ -24,19 +24,42 @@ This is a fully runnable Next.js project. All pages, components, and design toke
 | `tailwind.preset.js` | Tailwind CSS preset — add to `tailwind.config.js` |
 | `.cursorrules` | AI assistant instructions (Cursor, Copilot, etc.) |
 
-## Components (7)
+## Components (10)
 
-  - `DashboardLayout` — Main layout wrapper that combines sidebar and content area
-  - `TabsSection` — Tabbed content area with Recent Activity, Top Products, and Team sections
-  - `UsersTable` — Data table showing user information
-  - `StatsGrid` — Grid container for stat cards
-  - `StatCard` — Small statistic cards showing key metrics
-  - `HeaderBar` — Top header with search field and user avatar
+  - `TotalSalesCard` — TotalSalesCard
+
+---
+states: default, loading, error
+anatomy: container > (card-header > card-title + sales-icon) + (value-section > main-value + change-indicator) + (footer-section > comparison-text)
+a11y: semantic structure with descriptive data-element attributes
+tokens: colors, typography, spacing, radius, shadows, borders, status, transitions
+  - `RevenueAnalytics` — I'll create the Revenue Analytics chart component for you.
+
+---
+variants: none
+states: default, dropdown-open
+anatomy: container > (header-section > title + period-selector) + (chart-container > chart-grid > (y-axis-labels + grid-lines + bars-container) + x-axis-labels)
+a11y: button for dropdown, aria-expanded state management
+tokens: colors, typography, spacing, radius, shadows, borders, elevation
+  - `RevenueAnalytics` — I'll update the RevenueAnalytics component to use vertical bars instead of a line chart.
+
+---
+variants: default, with/without target comparison
+states: default, loading, no data, error
+anatomy: container > header (title + legend) + chart (bars + grid) + summary
+a11y: title attributes on bars for screen readers
+tokens: colors, typography, spacing, radius, shadows, borders
   - `SidebarNav` — Collapsible sidebar navigation with menu items
+  - `HeaderBar` — Top header with search field and user avatar
+  - `StatCard` — Small statistic cards showing key metrics
+  - `StatsGrid` — Grid container for stat cards
+  - `UsersTable` — Data table showing user information
+  - `TabsSection` — Tabbed content area with Recent Activity, Top Products, and Team sections
+  - `DashboardLayout` — Main layout wrapper that combines sidebar and content area
 
 ## Pages (1)
 
-  - **Admin Dashboard** — `/admin-dashboard` · 7 sections
+  - **Admin Dashboard** — `/admin-dashboard` · 8 sections
 
 ## Using Tokens
 
@@ -135,4 +158,4 @@ Each variant includes `default`, `hover`, `active`, and `disabled` states.
 This repo includes a `.cursorrules` file that teaches AI coding assistants (Cursor, GitHub Copilot, etc.) how to use this design system. Open this repo in your AI-powered editor and it will automatically follow the design system rules.
 
 ---
-*Last synced: 2026-02-24T19:27:40.313Z*
+*Last synced: 2026-02-24T19:54:11.190Z*
