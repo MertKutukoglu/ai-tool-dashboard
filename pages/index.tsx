@@ -2,8 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import TotalSalesCard from '../components/TotalSalesCard';
 import RevenueAnalytics from '../components/RevenueAnalytics';
-import RevenueAnalytics from '../components/RevenueAnalytics';
-import TotalSalesCard from '../components/TotalSalesCard';
 import SidebarNav from '../components/SidebarNav';
 import HeaderBar from '../components/HeaderBar';
 import StatCard from '../components/StatCard';

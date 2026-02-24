@@ -166,4 +166,4 @@ Each variant includes `default`, `hover`, `active`, and `disabled` states.
 This repo includes a `.cursorrules` file that teaches AI coding assistants (Cursor, GitHub Copilot, etc.) how to use this design system. Open this repo in your AI-powered editor and it will automatically follow the design system rules.
 
 ---
-*Last synced: 2026-02-24T20:28:47.458Z*
+*Last synced: 2026-02-24T20:34:51.533Z*
