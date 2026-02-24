@@ -20,7 +20,7 @@ module.exports = {
     "extend": {
       "colors": {
         "background": {
-          "DEFAULT": "#545454"
+          "DEFAULT": "#b8b8b8"
         },
         "primary": {
           "400": "#E1F487",

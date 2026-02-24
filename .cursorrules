@@ -323,7 +323,7 @@
 ```
 
 ## EXISTING COMPONENTS
-None yet
+DashboardLayout, TabsSection, UsersTable, StatsGrid, StatCard, HeaderBar, SidebarNav
 
 ## FILE STRUCTURE
 - `tokens/tokens.css` — CSS custom properties (import this)

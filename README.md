@@ -24,6 +24,20 @@ This is a fully runnable Next.js project. All pages, components, and design toke
 | `tailwind.preset.js` | Tailwind CSS preset — add to `tailwind.config.js` |
 | `.cursorrules` | AI assistant instructions (Cursor, Copilot, etc.) |
 
+## Components (7)
+
+  - `DashboardLayout` — Main layout wrapper that combines sidebar and content area
+  - `TabsSection` — Tabbed content area with Recent Activity, Top Products, and Team sections
+  - `UsersTable` — Data table showing user information
+  - `StatsGrid` — Grid container for stat cards
+  - `StatCard` — Small statistic cards showing key metrics
+  - `HeaderBar` — Top header with search field and user avatar
+  - `SidebarNav` — Collapsible sidebar navigation with menu items
+
+## Pages (1)
+
+  - **Admin Dashboard** — `/admin-dashboard` · 7 sections
+
 ## Using Tokens
 
 ### CSS / HTML
@@ -121,4 +135,4 @@ Each variant includes `default`, `hover`, `active`, and `disabled` states.
 This repo includes a `.cursorrules` file that teaches AI coding assistants (Cursor, GitHub Copilot, etc.) how to use this design system. Open this repo in your AI-powered editor and it will automatically follow the design system rules.
 
 ---
-*Last synced: 2026-02-24T18:44:42.607Z*
+*Last synced: 2026-02-24T19:15:07.973Z*
