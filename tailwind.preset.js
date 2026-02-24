@@ -23,22 +23,22 @@ module.exports = {
           "DEFAULT": "#b8b8b8"
         },
         "primary": {
-          "400": "#E1F487",
-          "500": "#D9F166",
-          "600": "#D1EE45",
-          "700": "#c9eb24"
+          "400": "#B8CDEC",
+          "500": "#89B0E8",
+          "600": "#5793E7",
+          "700": "#2074EB"
         },
         "secondary": {
-          "400": "#EFC7D6",
-          "500": "#E99AB7",
-          "600": "#E76998",
-          "700": "#E93477"
+          "400": "#F1C3D6",
+          "500": "#EC95B9",
+          "600": "#EC629B",
+          "700": "#F12A7D"
         },
         "tertiary": {
-          "400": "#CC93F3",
-          "500": "#BF75F0",
-          "600": "#B158EC",
-          "700": "#a33ae9"
+          "400": "#C2E9A6",
+          "500": "#A5E676",
+          "600": "#86E841",
+          "700": "#69E610"
         },
         "danger": {
           "400": "#F49898",
@@ -108,11 +108,11 @@ module.exports = {
       },
       "fontFamily": {
         "heading": [
-          "Manrope",
+          "Righteous",
           "sans-serif"
         ],
         "body": [
-          "Inter",
+          "Montserrat",
           "sans-serif"
         ],
         "ds-heading": "var(--font-heading)",

@@ -82,12 +82,12 @@ module.exports = { presets: [designSeedPreset], /* ... */ };
   - **Neutrals** (10 shades)
 
 ### Typography
-  - **Body:** Inter · 18px · 500
-  - **Label:** Inter · 14px · 600
-  - **Button:** Inter · 16px · 600
-  - **Heading:** Manrope · 40px · 600
-  - **Paragraph:** Inter · 16px · 400
-  - **Subheading:** Manrope · 24px · 600
+  - **Body:** Montserrat · 18px · 500
+  - **Label:** Montserrat · 14px · 600
+  - **Button:** Montserrat · 16px · 600
+  - **Heading:** Righteous · 40px · 600
+  - **Paragraph:** Montserrat · 16px · 400
+  - **Subheading:** Righteous · 24px · 600
 
 
 ### Radius
@@ -135,4 +135,4 @@ Each variant includes `default`, `hover`, `active`, and `disabled` states.
 This repo includes a `.cursorrules` file that teaches AI coding assistants (Cursor, GitHub Copilot, etc.) how to use this design system. Open this repo in your AI-powered editor and it will automatically follow the design system rules.
 
 ---
-*Last synced: 2026-02-24T19:15:07.973Z*
+*Last synced: 2026-02-24T19:27:40.313Z*
