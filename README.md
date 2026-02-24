@@ -24,7 +24,7 @@ This is a fully runnable Next.js project. All pages, components, and design toke
 | `tailwind.preset.js` | Tailwind CSS preset — add to `tailwind.config.js` |
 | `.cursorrules` | AI assistant instructions (Cursor, Copilot, etc.) |
 
-## Components (10)
+## Components (11)
 
   - `TotalSalesCard` — TotalSalesCard
 
@@ -49,6 +49,14 @@ states: default, loading, no data, error
 anatomy: container > header (title + legend) + chart (bars + grid) + summary
 a11y: title attributes on bars for screen readers
 tokens: colors, typography, spacing, radius, shadows, borders
+  - `TotalSalesCard` — I'll create a dark mode version of the TotalSalesCard component.
+
+---
+variants: dark mode
+states: default, loading, error
+anatomy: container > (header > title + icon) + (value-section > main-value + change-badge) + (footer-section > comparison-text)
+a11y: semantic structure with data-element attributes
+tokens: colors (neutrals for dark mode), typography, spacing, radius, shadows, borders
   - `SidebarNav` — Collapsible sidebar navigation with menu items
   - `HeaderBar` — Top header with search field and user avatar
   - `StatCard` — Small statistic cards showing key metrics
@@ -158,4 +166,4 @@ Each variant includes `default`, `hover`, `active`, and `disabled` states.
 This repo includes a `.cursorrules` file that teaches AI coding assistants (Cursor, GitHub Copilot, etc.) how to use this design system. Open this repo in your AI-powered editor and it will automatically follow the design system rules.
 
 ---
-*Last synced: 2026-02-24T19:54:11.190Z*
+*Last synced: 2026-02-24T20:28:47.458Z*

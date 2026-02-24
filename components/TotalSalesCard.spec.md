@@ -1,34 +1,38 @@
 # TotalSalesCard — Component Contract
 
+variants: dark mode
 states: default, loading, error
-anatomy: container > (card-header > card-title + sales-icon) + (value-section > main-value + change-indicator) + (footer-section > comparison-text)
-a11y: semantic structure with descriptive data-element attributes
-tokens: colors, typography, spacing, radius, shadows, borders, status, transitions
+anatomy: container > (header > title + icon) + (value-section > main-value + change-badge) + (footer-section > comparison-text)
+a11y: semantic structure with data-element attributes
+tokens: colors (neutrals for dark mode), typography, spacing, radius, shadows, borders
 
 ## Used Tokens
 - `--spacing-md`
-- `--color-background-primary`
+- `--color-neutrals-neutral-800`
 - `--radius-lg`
 - `--spacing-card-padding`
-- `--shadow-md`
+- `--shadow-lg`
 - `--border-card-width`
-- `--border-card-color`
-- `--color-background-secondary`
+- `--color-neutrals-neutral-700`
 - `--radius-sm`
 - `--spacing-sm`
-- `--color-status-danger-bg`
-- `--color-status-danger-border`
+- `--color-danger-600`
 - `--font-body`
 - `--font-size-body`
-- `--color-text-secondary`
-- `--color-status-danger`
-- `--color-status-success`
-- `--shadow-lg`
-- `--color-text-neutral`
+- `--color-neutrals-neutral-300`
+- `--color-danger-500`
+- `--color-success-500`
+- `--color-success-700`
+- `--color-danger-700`
+- `--shadow-xl`
+- `--color-neutrals-neutral-400`
+- `--radius-md`
+- `--color-primary-500`
 - `--font-heading`
 - `--font-size-heading`
 - `--font-weight-heading`
-- `--color-text-primary`
-- `--font-weight-body`
+- `--color-neutrals-neutral-50`
 - `--font-size-label`
 - `--font-weight-label`
+- `--spacing-xs`
+- `--color-neutrals-neutral-500`

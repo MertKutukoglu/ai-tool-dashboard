@@ -323,7 +323,7 @@
 ```
 
 ## EXISTING COMPONENTS
-TotalSalesCard, RevenueAnalytics, RevenueAnalytics, SidebarNav, HeaderBar, StatCard, StatsGrid, UsersTable, TabsSection, DashboardLayout
+TotalSalesCard, RevenueAnalytics, RevenueAnalytics, TotalSalesCard, SidebarNav, HeaderBar, StatCard, StatsGrid, UsersTable, TabsSection, DashboardLayout
 
 ## FILE STRUCTURE
 - `tokens/tokens.css` — CSS custom properties (import this)
